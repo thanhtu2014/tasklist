@@ -36,7 +36,7 @@ class TaskList extends Component {
 				<div className="todo-container">
 					<TodoForm todoEdit={this.state.todoEdit} onFormSubmit={this.handleFormSubmit}/>
 					<TodoList filter= {this.state.filter} newTodo={this.state.todoData} onTodoEdit={this.handleTodoEdit}/>
-					<TodoFooter filterList= {this.state.filter} onFilterTodo = {this.handleFilterTodo}/>
+					<TodoFooter onFilterTodo = {this.handleFilterTodo}/>
 				</div>
 			</div>
 		);

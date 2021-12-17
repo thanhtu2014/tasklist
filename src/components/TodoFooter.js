@@ -11,7 +11,6 @@ class TodoFooter extends Component {
 
 		this.state = {
 			filter: 'all', 
-			counters: 0
 		}
 	}
 
